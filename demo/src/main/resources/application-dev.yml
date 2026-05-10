@@ -1,0 +1,10 @@
+# 开发环境通用配置模板
+# 注意：数据库配置由具体的 profile 控制（h2/postgres/kingbase）
+
+# 开发环境日志级别
+logging:
+  level:
+    com.ruc.platform: debug
+    com.ruc.platform.mapper: debug
+    org.springframework.web: debug
+    org.flywaydb: debug
